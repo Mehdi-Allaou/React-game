@@ -1,11 +1,13 @@
 .card {
   position: relative;
+  
 }
 .card img {
   width: 100%;
   display: block;
-  border: 2px solid #FFF;
+  border: 2px ridge #fff;
   border-radius: 6px;
+  
 }
 /* front of card - picture */
 .card .front {
@@ -30,3 +32,7 @@
   transition-delay: 0s;
   
 }
+/* img {
+  height: 95%;
+  width: 95%;
+} */

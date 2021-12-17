@@ -5,12 +5,13 @@ import { SingleCard } from './components/SingleCard'
 import './App.css'
 
 const cardImages = [
-  {"src": "img/helmet-1.png", matched: false},
-  {"src": "img/potion-1.png", matched: false},
-  {"src": "img/ring-1.png", matched: false},
-  {"src": "img/scroll-1.png", matched: false},
-  {"src": "img/shield-1.png", matched: false},
-  {"src": "img/sword-1.png", matched: false}
+ // supermario
+  {"src": "img/super-mario/dinodance.png", matched: false},
+  {"src": "img/super-mario/luigiflying.png", matched: false},
+  {"src": "img/super-mario/mariohappy.png", matched: false},
+  {"src": "img/super-mario/marioluigi.png", matched: false},
+  {"src": "img/super-mario/mariobaby.png", matched: false},
+  {"src": "img/super-mario/mariocart.png", matched: false}
 ]
 
 function App() {
@@ -77,8 +78,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Memory Game</h1>
+      <div className='headname'>
+      <h1>Super Mario</h1>
+      <h2>Memory game</h2>
       <button onClick={shuffleCards}>New Game</button>
+      </div>
 
       <div className="card-grid">
         {cards.map(card => (
