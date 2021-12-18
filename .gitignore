@@ -5,10 +5,6 @@
 /.pnp
 .pnp.js
 
-# temporary
-/public/img
-README.md
-
 # testing
 /coverage
 
